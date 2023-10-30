@@ -1,0 +1,33 @@
+.contact h2 {
+  color: var(--gray4);
+}
+input,
+textarea {
+  display: block;
+  color: var(--placeholder);
+  padding: 10px;
+  background-color: var(--gray3);
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  width: 100%;
+  font-family: Roboto-Regular;
+}
+label {
+  font-family: Roboto-Regular;
+  font-size: 0.8rem;
+  color: var(--placeholder);
+  position: relative;
+}
+label h4 {
+  position: absolute;
+  left: 1.4rem;
+  top: 0.8rem;
+}
+label span {
+  color: var(--red);
+  margin-left: 5px;
+}
+label:focus-within h4 {
+  visibility: hidden;
+}

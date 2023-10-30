@@ -1,0 +1,46 @@
+footer {
+  background-color: var(--black);
+  color: white;
+}
+footer .container {
+  padding: 40px 10vw;
+}
+footer .flex {
+  align-items: flex-start;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+}
+footer nav a,
+footer h3 {
+  color: white;
+  font-family: Roboto-Bold;
+  font-size: 1rem;
+}
+footer p {
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  line-height: 2;
+}
+
+.social-media img {
+  margin-right: 35px;
+  cursor: pointer;
+}
+.copy-write {
+  text-align: center;
+  color: var(--gray5);
+  padding: 25px 0;
+  border-top: 1px solid var(--gray5);
+}
+.adress,
+.tel,
+.email {
+  gap: 30px;
+  justify-content: flex-start;
+}
+.m-t-25 {
+  margin-top: 25px;
+}

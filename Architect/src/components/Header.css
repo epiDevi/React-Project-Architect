@@ -1,0 +1,16 @@
+header {
+  height: 100px;
+  padding: 0 10vw;
+}
+
+header svg {
+  height: 30px;
+  cursor: pointer;
+}
+nav a {
+  padding: 10px 2rem;
+}
+header .active {
+  border-top: 1px solid var(--gray1);
+  border-bottom: 1px solid var(--gray1);
+}

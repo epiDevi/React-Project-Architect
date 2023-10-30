@@ -1,0 +1,38 @@
+.projects h2 {
+  color: var(--gray4);
+}
+.projects-fotos {
+  margin-top: 60px;
+}
+.simple {
+  background: url("../assets/img/Rectangle12.jpg");
+  width: 39vw;
+  height: 37vh;
+  margin: 10px;
+}
+.simple .cover {
+  background: url("../assets//img/Rectangle17.jpg");
+  opacity: 0.8;
+  padding-left: 5vw;
+  padding-top: 4vh;
+  width: 39vw;
+  height: 37vh;
+}
+.projects img {
+  display: block;
+  margin: 10px;
+}
+.simple h2 {
+  width: 15vw;
+  color: white;
+}
+.simple a {
+  display: inline-block;
+  background: none !important;
+  color: white;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}

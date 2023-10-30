@@ -1,0 +1,12 @@
+.foto-gallery .light {
+  color: var(--gray4);
+}
+.foto-gallery .bold {
+  color: var(--gray1);
+}
+.grid {
+  margin-top: 30px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
